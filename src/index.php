@@ -64,9 +64,9 @@
                             <h2 class="mt-2 mb-4"><span class="tooplate-red">Katalog</span> Mainan</h2>
                         </div>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-3">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                         <?php foreach ($products as $product) : 
-                            $detail_link = "product.php/" . $product->Kode . '-' . slugify($product->Nama);    
+                            $detail_link = "product.php/" . $product->Kode . '-' . slugify($product->Nama) . '.html';    
                         ?>
                         <div class="col">
                             <div class="shop-thumb">
@@ -78,7 +78,7 @@
                                     <div class="shop-icons-wrap">
                                         <p class="shop-pricing mb-0">
                                             <span class="badge shop-pricing-badge">
-                                                <?php echo "Rp " . number_format($product->Sewa1Minggu, 0, ",", "."); ?>
+                                                <?php echo format_rp($product->Sewa1Minggu); ?>
                                                 <br>
                                                 <small>per minggu</small>
                                             </span>

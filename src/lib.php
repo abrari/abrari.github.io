@@ -6,6 +6,28 @@ function get_inventory_list() {
     return json_decode($file_content);
 }
 
+function get_inventory($kode) {
+    $list = get_inventory_list();
+    foreach($list as $el) {
+        if ($el->Kode == $kode) {
+            return $el;
+        }
+    }
+    return false;
+}
+
+function get_product_kode_from_url($request_uri) {
+    $slug_code = null;
+
+    // The pattern looks for a slash, then any characters, then another slash.
+    // Then it captures a sequence of characters that aren't a dash (the slug code).
+    if (preg_match('/\/[^\/]+\/([^-]+)-/', $request_uri, $matches)) {
+        $slug_code = $matches[1];
+    }
+
+    return $slug_code;
+}
+
 function slugify($text, string $divider = '-')
 {
   // replace non letter or digits by divider
@@ -31,4 +53,8 @@ function slugify($text, string $divider = '-')
   }
 
   return $text;
+}
+
+function format_rp($num) {
+    return "Rp " . number_format($num, 0, ",", ".");
 }
