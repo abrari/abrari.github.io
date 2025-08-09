@@ -1,15 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
     <head>
         <base href="http://localhost:8083">
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="description" content="">
-        <meta name="author" content="Tooplate">
+        <!-- Primary Meta Tags -->
+        <title>YKids Toys Rental | Sewa Mainan Anak & Perlengkapan Bayi di Bogor</title>
+        <meta name="description" content="Sewa mainan anak, perosotan, playground, ayunan, stroller, dan perlengkapan bayi lainnya di YKids Bogor. Koleksi lengkap, harga terjangkau, dan pengiriman aman. Solusi cerdas untuk kebutuhan si kecil!">
+        <meta name="keywords" content="sewa mainan anak, rental mainan bayi, sewa perosotan, sewa playground, sewa ayunan, sewa stroller, rental perlengkapan bayi, mainan edukasi, persewaan mainan bogor, ykids bogor">
+        <meta name="author" content="YKids Toys Rental">
 
-        <title>YKids Toys Rental</title>
+        <!-- Open Graph / Facebook / WhatsApp Meta Tags -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ykidsbogor.com/">
+        <meta property="og:title" content="YKids Toys Rental | Sewa Mainan Anak & Perlengkapan Bayi di Bogor">
+        <meta property="og:description" content="Sewa mainan anak, perosotan, playground, ayunan, stroller, dan perlengkapan bayi lainnya di YKids Bogor. Koleksi lengkap, harga terjangkau, dan pengiriman aman. Solusi cerdas untuk kebutuhan si kecil!">
+        <!--<meta property="og:image" content="https://www.ykidsbogor.com/images/ykids-og-image.jpg">-->
+
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://ykidsbogor.com/">
+        <meta name="twitter:title" content="YKids Toys Rental | Sewa Mainan Anak & Perlengkapan Bayi Murah di Bogor">
+        <meta name="twitter:description" content="Sewa mainan anak, perosotan, playground, ayunan, stroller, dan perlengkapan bayi lainnya di YKids Bogor. Koleksi lengkap, harga terjangkau, dan pengiriman aman. Solusi cerdas untuk kebutuhan si kecil!">
+        <!--<meta name="twitter:image" content="https://www.ykidsbogor.com/images/ykids-twitter-image.jpg">-->
+
+        <!-- Favicon (Optional but recommended) -->
+        <link rel="icon" type="image/png" href="/favicon.png"> <!-- Replace with your favicon path -->
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
