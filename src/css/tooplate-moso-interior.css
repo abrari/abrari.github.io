@@ -360,12 +360,16 @@ strong {
 
 .navbar-brand {
   font-size: var(--h4-font-size);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-normal);
 }
 
 .navbar-brand,
 .navbar-brand:hover {
   color: var(--primary-color);
+}
+
+.navbar-brand .logo-brand {
+  height: 48px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
