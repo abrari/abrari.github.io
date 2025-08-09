@@ -38,7 +38,7 @@ wget -nH -E -m -p -k "${URL}"
 
 # Fix file extensions and links
 echo "Fixing file extensions and links..."
-find ./ -type f -not -path "./.git/*" -not -name "make-static.sh" -exec sed -i -e 's/product.php/product/g' {} \;
+find ./ -type f -not -path "./.git/*" -not -name "make-static.sh" -not -name "*.php" -exec sed -i -e 's/product.php/product/g' {} \;
 mv product.php product
 
 # Kill the PHP server process
