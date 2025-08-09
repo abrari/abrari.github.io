@@ -9,7 +9,7 @@
 
                     <p class="text-white">Menyewakan beragam mainan anak dan perlengkapan bayi</p>
                     
-                    <p class="text-white">Web Design: YYY Family</p>
+                    <p>Web Design: YYY Family</p>
                 </div>
 
                 <div class="col-lg-3 col-md-3 col-12 ms-lg-auto mb-3">
@@ -18,6 +18,10 @@
                     <p class="text-white mt-2">
                         <i class="bi-geo-alt"></i>
                         Perumahan Graha Arradea Blok U11, Ciherang, Dramaga, Bogor
+                    </p>
+
+                    <p class="text-white">
+                        Free delivery wilayah Graha Arradea dan sekitarnya
                     </p>
                 </div>
 

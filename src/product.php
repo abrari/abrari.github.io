@@ -28,7 +28,7 @@ $whatsappLink = "https://wa.me/{$whatsappNumber}?text={$whatsappMessage}";
                                     Hemat kantong, anak happy! Sekarang, bikin playground di rumah bisa banget tanpa perlu beli.
                                 </small>
 
-                                <a href="<?php echo htmlspecialchars($whatsappLink); ?>" class="btn cta-button">Sewa Sekarang &nbsp; <i class="bi bi-whatsapp"></i></a>
+                                <a href="<?php echo htmlspecialchars($whatsappLink); ?>" class="btn cta-button" style="visibility: hidden !important">Sewa Sekarang &nbsp; <i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
 
@@ -105,7 +105,7 @@ $whatsappLink = "https://wa.me/{$whatsappNumber}?text={$whatsappMessage}";
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center py-3">
                                 <span class="fw-bold text-dark">4 Minggu</span>
-                                <span class="badge bg-warning fs-6 py-2 px-3 rounded-pill">
+                                <span class="badge bg-primary fs-6 py-2 px-3 rounded-pill">
                                     Rp <?php echo number_format($product->Sewa4Minggu, 0, ',', '.'); ?>
                                 </span>
                             </li>

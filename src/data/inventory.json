@@ -10,7 +10,8 @@
     "Sewa2Minggu": "78000",
     "Sewa4Minggu": "130000",
     "SewaHarian": "7000",
-    "Foto": "perosotan1.png"
+    "Foto": "perosotan1.png",
+    "Deskripsi": "Perosotan berukuran besar yang ideal untuk anak usia 3-5 tahun. Hadirkan keseruan bermain di rumah."
   },
   {
     "Kode": "T002",
@@ -23,7 +24,8 @@
     "Sewa2Minggu": "66000",
     "Sewa4Minggu": "110000",
     "SewaHarian": "6000",
-    "Foto": "ayunan1.png"
+    "Foto": "ayunan1.png",
+    "Deskripsi": "Ayunan yang aman untuk anak-anak dengan bobot maksimal 15 kg. Cocok untuk bersantai dan melatih keseimbangan anak."
   },
   {
     "Kode": "T003",
@@ -36,7 +38,8 @@
     "Sewa2Minggu": "90000",
     "Sewa4Minggu": "150000",
     "SewaHarian": "8000",
-    "Foto": "playpen1.png"
+    "Foto": "playpen1.png",
+    "Deskripsi": "Area bermain yang luas dan aman untuk anak-anak dengan ukuran 158 x 120 cm. Memungkinkan anak bermain bebas sambil tetap dalam pengawasanmu."
   },
   {
     "Kode": "T004",
@@ -49,7 +52,8 @@
     "Sewa2Minggu": "54000",
     "Sewa4Minggu": "90000",
     "SewaHarian": "5000",
-    "Foto": "basket1.png"
+    "Foto": "basket1.png",
+    "Deskripsi": "Ring basket dengan tinggi yang dapat diatur untuk melatih motorik kasar dan ketangkasan anak. Dilengkapi gawang kecil untuk bermain bola sepak."
   },
   {
     "Kode": "T005",
@@ -62,7 +66,8 @@
     "Sewa2Minggu": "36000",
     "Sewa4Minggu": "60000",
     "SewaHarian": "4000",
-    "Foto": "kudaan1.png"
+    "Foto": "kudaan1.png",
+    "Deskripsi": "Mainan kuda-kudaan yang kokoh dan aman, Cocok untuk melatih keseimbangan dan koordinasi anak."
   },
   {
     "Kode": "T006",
@@ -75,7 +80,8 @@
     "Sewa2Minggu": "54000",
     "Sewa4Minggu": "90000",
     "SewaHarian": "5000",
-    "Foto": "walker1.png"
+    "Foto": "walker1.png",
+    "Deskripsi": "Alat bantu belajar jalan yang didesain untuk anak usia minimal 6 bulan. Membantu si kecil belajar berdiri dan melangkah dengan stabil."
   },
   {
     "Kode": "T007",
@@ -88,7 +94,8 @@
     "Sewa2Minggu": "48000",
     "Sewa4Minggu": "80000",
     "SewaHarian": "5000",
-    "Foto": "bouncer1.png"
+    "Foto": "bouncer1.png",
+    "Deskripsi": "Bouncer yang bisa digunakan sebagai kursi goyang, memberikan kenyamanan dan ketenangan ekstra untuk bayi. Cocok untuk menidurkan bayi dengan lembut."
   },
   {
     "Kode": "T008",
@@ -101,7 +108,8 @@
     "Sewa2Minggu": "108000",
     "Sewa4Minggu": "180000",
     "SewaHarian": "10000",
-    "Foto": "hugme1.png"
+    "Foto": "hugme1.png",
+    "Deskripsi": "Bouncer otomatis yang menenangkan dengan fitur suara dan ayunan lembut yang dapat diatur. Membantu bayi tidur lebih nyenyak dan nyaman."
   },
   {
     "Kode": "T009",
@@ -114,7 +122,8 @@
     "Sewa2Minggu": "126000",
     "Sewa4Minggu": "210000",
     "SewaHarian": "11000",
-    "Foto": "roofcar1.png"
+    "Foto": "roofcar1.png",
+    "Deskripsi": "Mainan mobil-mobilan yang dapat dinaiki, memberikan sensasi seperti mobil sungguhan. Dapat digunakan dengan didorong oleh orang tua atau dijalankan dengan kaki si kecil sendiri. Catatan: hanya untuk penggunaan indoor atau di halaman."
   },
   {
     "Kode": "T011",
@@ -127,7 +136,8 @@
     "Sewa2Minggu": "72000",
     "Sewa4Minggu": "120000",
     "SewaHarian": "7000",
-    "Foto": "tricycle1.png"
+    "Foto": "tricycle1.png",
+    "Deskripsi": "Sepeda roda tiga yang dilengkapi stang pendorong, cocok untuk anak usia minimal 3 tahun. Orang tua dapat mengontrol arah laju sepeda dengan mudah."
   },
   {
     "Kode": "T012",
@@ -140,7 +150,8 @@
     "Sewa2Minggu": "168000",
     "Sewa4Minggu": "280000",
     "SewaHarian": "15000",
-    "Foto": "stroller1.png"
+    "Foto": "stroller1.png",
+    "Deskripsi": "Kereta dorong bayi yang nyaman dan aman dari Cocolatte, dengan handle yang dapat diubah posisi depan atau belakang. Memudahkanmu saat bepergian bersama si kecil."
   },
   {
     "Kode": "T013",
@@ -153,7 +164,8 @@
     "Sewa2Minggu": "132000",
     "Sewa4Minggu": "220000",
     "SewaHarian": "12000",
-    "Foto": "babybox1.png"
+    "Foto": "babybox1.png",
+    "Deskripsi": "Tempat tidur bayi yang nyaman dan dapat digunakan dari usia 0-6 bulan. Dapat digunakan di samping tempat tidur orang tua dengan ketinggian yang dapat diatur."
   },
   {
     "Kode": "T014",
@@ -166,7 +178,8 @@
     "Sewa2Minggu": "144000",
     "Sewa4Minggu": "240000",
     "SewaHarian": "13000",
-    "Foto": "stroller2.png"
+    "Foto": "stroller2.png",
+    "Deskripsi": "Stroller lipat otomatis dengan desain modern dan ringkas dari Cocolatte. Mampu menopang bobot anak hingga 20 kg, praktis untuk mobilitas tinggi."
   },
   {
     "Kode": "T015",
@@ -179,7 +192,8 @@
     "Sewa2Minggu": "42000",
     "Sewa4Minggu": "70000",
     "SewaHarian": "4000",
-    "Foto": "perosotan2.png"
+    "Foto": "perosotan2.png",
+    "Deskripsi": "Perosotan berukuran mungil yang dirancang untuk anak usia 1-3 tahun. Aman dan cocok untuk bermain di dalam rumah."
   },
   {
     "Kode": "T016",
@@ -192,7 +206,8 @@
     "Sewa2Minggu": "132000",
     "Sewa4Minggu": "220000",
     "SewaHarian": "12000",
-    "Foto": "exersaucer1.png"
+    "Foto": "exersaucer1.png",
+    "Deskripsi": "Alat bermain interaktif yang membantu melatih motorik kasar dan kekuatan kaki anak dengan melompat-lompat. Dilengkapi mainan yang edukatif."
   },
   {
     "Kode": "T017",
@@ -205,7 +220,8 @@
     "Sewa2Minggu": "159000",
     "Sewa4Minggu": "265000",
     "SewaHarian": "14000",
-    "Foto": "carseat1.png"
+    "Foto": "carseat1.png",
+    "Deskripsi": "Kursi mobil bayi yang dapat diputar 360 derajat, memberikan kemudahan saat memasang dan melepas bayi dari kursi. Menjamin keamanan si kecil saat bepergian."
   },
   {
     "Kode": "T018",
@@ -218,7 +234,8 @@
     "Sewa2Minggu": "96000",
     "Sewa4Minggu": "160000",
     "SewaHarian": "9000",
-    "Foto": "perosotan3.png"
+    "Foto": "perosotan3.png",
+    "Deskripsi": "Perosotan bertema London Bus yang unik dan seru dengan tinggi perosotan 65 cm. Cocok untuk melengkapi area bermain anak di rumah."
   },
   {
     "Kode": "T019",
@@ -231,7 +248,8 @@
     "Sewa2Minggu": "60000",
     "Sewa4Minggu": "100000",
     "SewaHarian": "6000",
-    "Foto": "perosotan4.png"
+    "Foto": "perosotan4.png",
+    "Deskripsi": "Perosotan dengan desain lumba-lumba yang menarik, aman untuk anak-anak dengan bobot maksimal 25 kg. Cocok untuk bermain seru di halaman rumah."
   },
   {
     "Kode": "T020",
@@ -244,7 +262,8 @@
     "Sewa2Minggu": "190000",
     "Sewa4Minggu": "300000",
     "SewaHarian": "17000",
-    "Foto": "playhouse1.png"
+    "Foto": "playhouse1.png",
+    "Deskripsi": "Rumah-rumahan dengan desain cerah dan ceria untuk anak-anak. Dilengkapi meja dan dua kursi kecil untuk si kecil bermain. Menyediakan ruang privat untuk bermain imajinatif dan membangun kreativitas."
   },
   {
     "Kode": "T021",
@@ -257,6 +276,7 @@
     "Sewa2Minggu": "60000",
     "Sewa4Minggu": "100000",
     "SewaHarian": "6000",
-    "Foto": "mandibola1.png"
+    "Foto": "mandibola1.png",
+    "Deskripsi": "Kolam renang bola berukuran 150 cm yang dilengkapi dengan 1000 buah bola warna-warni. Menghadirkan keseruan bermain mandi bola di rumah."
   }
 ]
