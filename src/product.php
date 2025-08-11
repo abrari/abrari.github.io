@@ -1,10 +1,15 @@
 <?php require 'lib.php' ?>
-<?php require 'header.php' ?>
-
 <?php
 
 $kode = get_product_kode_from_url($_SERVER["REQUEST_URI"]);
 $product = get_inventory($kode);
+
+$document_title = "Sewa " . htmlspecialchars($product->Nama);
+
+?>
+<?php require 'header.php' ?>
+
+<?php
 
 // WhatsApp phone number and message
 $whatsappNumber = '6281290320159'; // International format without leading '+' or '00'

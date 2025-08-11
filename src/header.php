@@ -17,7 +17,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Primary Meta Tags -->
-        <title>YKids Toys Rental | Sewa Mainan Anak & Perlengkapan Bayi di Bogor</title>
+        <title>YKids Toys Rental | <?php echo isset($document_title) ? $document_title : "Sewa Mainan Anak & Perlengkapan Bayi di Bogor"; ?></title>
         <meta name="description" content="Sewa mainan anak, perosotan, playground, ayunan, stroller, dan perlengkapan bayi lainnya di YKids Bogor. Koleksi lengkap, harga terjangkau, dan pengiriman aman. Solusi cerdas untuk kebutuhan si kecil!">
         <meta name="keywords" content="sewa mainan anak, rental mainan bayi, sewa perosotan, sewa playground, sewa ayunan, sewa stroller, rental perlengkapan bayi, mainan edukasi, persewaan mainan bogor, ykids bogor">
         <meta name="author" content="YKids Toys Rental">
