@@ -278,5 +278,19 @@
     "SewaHarian": "6000",
     "Foto": "mandibola1.png",
     "Deskripsi": "Kolam renang bola berukuran 150 cm yang dilengkapi dengan 1000 buah bola warna-warni. Menghadirkan keseruan bermain mandi bola di rumah."
+  },
+  {
+    "Kode": "T022",
+    "Nama": "Trampolin jaring",
+    "Merk": "",
+    "Spek": "Ukuran diameter 140 cm",
+    "UsiaAnak": "2 - 14 tahun",
+    "BobotAnak": "max 200 kg",
+    "Sewa1Minggu": null,
+    "Sewa2Minggu": "110000",
+    "Sewa4Minggu": "180000",
+    "SewaHarian": null,
+    "Foto": "trampolin1.png",
+    "Deskripsi": "Trampolin dengan jaring pengaman di sekelilingnya, cocok untuk anak usia 2-14 tahun. Dapat menahan beban hingga 200 kg, trampolin ini aman untuk aktivitas fisik dan melatih motorik anak."
   }
 ]
