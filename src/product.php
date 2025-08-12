@@ -58,13 +58,15 @@ $whatsappLink = "https://wa.me/{$whatsappNumber}?text={$whatsappMessage}";
                     <h1 class="hero-title mb-3">
                         <?php echo htmlspecialchars($product->Nama); ?>
                     </h1>
-                    <p class="lead text-muted mb-4">
-                        <span class="fw-semibold">Merk:</span> <?php echo htmlspecialchars($product->Merk); ?>
-                    </p>
+
+                    <?php if (!empty($product->Merk)): ?>
+                        <p class="lead text-muted mb-4">
+                            <span class="fw-semibold">Merk:</span> <?php echo htmlspecialchars($product->Merk); ?>
+                        </p>
+                    <?php endif; ?>
 
                     <?php if (!empty($product->Deskripsi)): ?>
                         <div class="mb-4">
-                            <h3 class="h5 fw-bold mb-2">Deskripsi</h3>
                             <p class="text-secondary"><?php echo htmlspecialchars($product->Deskripsi); ?></p>
                         </div>
                     <?php endif; ?>
@@ -96,24 +98,30 @@ $whatsappLink = "https://wa.me/{$whatsappNumber}?text={$whatsappMessage}";
                     <div class="mb-5">
                         <h3 class="h5 fw-bold mb-3">Harga Sewa</h3>
                         <ul class="list-group list-group-flush border rounded-3 overflow-hidden shadow-sm">
-                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
-                                <span class="fw-bold text-dark">1 Minggu</span>
-                                <span class="badge bg-success fs-6 py-2 px-3 rounded-pill">
-                                    Rp <?php echo number_format($product->Sewa1Minggu, 0, ',', '.'); ?>
-                                </span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
-                                <span class="fw-bold text-dark">2 Minggu</span>
-                                <span class="badge bg-info fs-6 py-2 px-3 rounded-pill">
-                                    Rp <?php echo number_format($product->Sewa2Minggu, 0, ',', '.'); ?>
-                                </span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
-                                <span class="fw-bold text-dark">4 Minggu</span>
-                                <span class="badge bg-primary fs-6 py-2 px-3 rounded-pill">
-                                    Rp <?php echo number_format($product->Sewa4Minggu, 0, ',', '.'); ?>
-                                </span>
-                            </li>
+                            <?php if ($product->Sewa1Minggu) : ?>
+                                <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                    <span class="fw-bold text-dark">1 Minggu</span>
+                                    <span class="badge bg-success fs-6 py-2 px-3 rounded-pill">
+                                        <?php echo format_rp($product->Sewa1Minggu); ?>
+                                    </span>
+                                </li>
+                            <?php endif; ?>
+                            <?php if ($product->Sewa2Minggu) : ?>
+                                <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                    <span class="fw-bold text-dark">2 Minggu</span>
+                                    <span class="badge bg-info fs-6 py-2 px-3 rounded-pill">
+                                        <?php echo format_rp($product->Sewa2Minggu); ?>
+                                    </span>
+                                </li>
+                            <?php endif; ?>
+                            <?php if ($product->Sewa4Minggu) : ?>
+                                <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                    <span class="fw-bold text-dark">4 Minggu</span>
+                                    <span class="badge bg-primary fs-6 py-2 px-3 rounded-pill">
+                                        <?php echo format_rp($product->Sewa4Minggu); ?>
+                                    </span>
+                                </li>
+                            <?php endif; ?>
                         </ul>
                     </div>
 

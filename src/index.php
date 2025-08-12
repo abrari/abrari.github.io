@@ -67,6 +67,20 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                         <?php foreach ($products as $product) : 
                             $detail_link = "product.php/" . $product->Kode . '-' . slugify($product->Nama) . '.html';    
+
+                            $display_price = 0;
+                            $display_label = '';
+
+                            if (!empty($product->Sewa1Minggu) && $product->Sewa1Minggu > 0) {
+                                $display_price = $product->Sewa1Minggu;
+                                $display_label = 'per minggu';
+                            } elseif (!empty($product->Sewa2Minggu) && $product->Sewa2Minggu > 0) {
+                                $display_price = $product->Sewa2Minggu;
+                                $display_label = 'per 2 minggu';
+                            } elseif (!empty($product->Sewa4Minggu) && $product->Sewa4Minggu > 0) {
+                                $display_price = $product->Sewa4Minggu;
+                                $display_label = 'per 4 minggu';
+                            }
                         ?>
                         <div class="col">
                             <div class="shop-thumb">
@@ -78,9 +92,13 @@
                                     <div class="shop-icons-wrap">
                                         <p class="shop-pricing mb-0">
                                             <span class="badge shop-pricing-badge">
-                                                <?php echo format_rp($product->Sewa1Minggu); ?>
-                                                <br>
-                                                <small>per minggu</small>
+                                                <?php if ($display_price > 0): ?>
+                                                    <?php echo format_rp($display_price); ?>
+                                                    <br>
+                                                    <small><?php echo htmlspecialchars($display_label); ?></small>
+                                                <?php else: ?>
+                                                    <small>tidak tersedia</small>
+                                                <?php endif; ?>
                                             </span>
                                         </p>
                                     </div>
