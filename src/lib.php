@@ -1,9 +1,11 @@
 <?php
 
-function get_inventory_list($kategori) {
+function get_inventory_list($kategori = null) {
     $json = 'data/inventory.json';
     $file_content = file_get_contents($json);
     $data = json_decode($file_content);
+
+    if ($kategori == null) return $data;
 
     $by_kategori = array_filter($data, function($item) use ($kategori) {
         if (isset($item->Kategori) && $item->Kategori == $kategori) {
