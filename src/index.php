@@ -55,68 +55,71 @@
                 </div>
             </section>            
 
-            <?php $products = get_inventory_list(); ?>
-
-            <section class="shop-section section-padding" id="section_3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-12">
-                            <h2 class="mt-2 mb-4"><span class="tooplate-red">Katalog</span> Mainan</h2>
-                        </div>
-                    </div>
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                        <?php foreach ($products as $product) : 
-                            $detail_link = "product.php/" . $product->Kode . '-' . slugify($product->Nama) . '.html';    
-
-                            $display_price = 0;
-                            $display_label = '';
-
-                            if (!empty($product->Sewa1Minggu) && $product->Sewa1Minggu > 0) {
-                                $display_price = $product->Sewa1Minggu;
-                                $display_label = 'per minggu';
-                            } elseif (!empty($product->Sewa2Minggu) && $product->Sewa2Minggu > 0) {
-                                $display_price = $product->Sewa2Minggu;
-                                $display_label = 'per 2 minggu';
-                            } elseif (!empty($product->Sewa4Minggu) && $product->Sewa4Minggu > 0) {
-                                $display_price = $product->Sewa4Minggu;
-                                $display_label = 'per 4 minggu';
-                            }
-                        ?>
-                        <div class="col">
-                            <div class="shop-thumb">
-                                <div class="shop-image-wrap">
-                                    <a href="<?php echo $detail_link; ?>">
-                                        <img src="images/product/thumbs/<?php echo $product->Foto; ?>" class="shop-image img-fluid" alt="Gambar <?php echo $product->Nama; ?>">
-                                    </a>
-
-                                    <div class="shop-icons-wrap">
-                                        <p class="shop-pricing mb-0">
-                                            <span class="badge shop-pricing-badge">
-                                                <?php if ($display_price > 0): ?>
-                                                    <?php echo format_rp($display_price); ?>
-                                                    <br>
-                                                    <small><?php echo htmlspecialchars($display_label); ?></small>
-                                                <?php else: ?>
-                                                    <small>tidak tersedia</small>
-                                                <?php endif; ?>
-                                            </span>
-                                        </p>
-                                    </div>
-
-                                    <div class="shop-btn-wrap">
-                                        <a href="<?php echo $detail_link; ?>" class="shop-btn custom-btn btn d-flex align-items-center align-items-center text-center">PESAN</a>
-                                    </div>
-                                </div>
-
-                                <div class="shop-body">
-                                    <small class="text-muted"><?php echo $product->Merk; ?></small>
-                                    <h4><?php echo $product->Nama; ?></h4>
-                                </div>
+            <section class="shop-section" id="section_3">
+                <?php $categories = ['Playground' => 'Mainan', 'Baby' => 'Perlengkapan Bayi']; ?>
+                <?php foreach ($categories as $cat => $cat_label) :
+                    $products = get_inventory_list($cat); 
+                ?>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-12">
+                                <h2 class="mt-4 mb-4"><span class="tooplate-red">Katalog</span> <?php echo $cat_label; ?></h2>
                             </div>
                         </div>
-                        <?php endforeach; ?>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                            <?php foreach ($products as $product) : 
+                                $detail_link = "product.php/" . $product->Kode . '-' . slugify($product->Nama) . '.html';    
+
+                                $display_price = 0;
+                                $display_label = '';
+
+                                if (!empty($product->Sewa1Minggu) && $product->Sewa1Minggu > 0) {
+                                    $display_price = $product->Sewa1Minggu;
+                                    $display_label = 'per minggu';
+                                } elseif (!empty($product->Sewa2Minggu) && $product->Sewa2Minggu > 0) {
+                                    $display_price = $product->Sewa2Minggu;
+                                    $display_label = 'per 2 minggu';
+                                } elseif (!empty($product->Sewa4Minggu) && $product->Sewa4Minggu > 0) {
+                                    $display_price = $product->Sewa4Minggu;
+                                    $display_label = 'per 4 minggu';
+                                }
+                            ?>
+                            <div class="col">
+                                <div class="shop-thumb">
+                                    <div class="shop-image-wrap">
+                                        <a href="<?php echo $detail_link; ?>">
+                                            <img src="images/product/thumbs/<?php echo $product->Foto; ?>" class="shop-image img-fluid" alt="Gambar <?php echo $product->Nama; ?>">
+                                        </a>
+
+                                        <div class="shop-icons-wrap">
+                                            <p class="shop-pricing mb-0">
+                                                <span class="badge shop-pricing-badge">
+                                                    <?php if ($display_price > 0): ?>
+                                                        <?php echo format_rp($display_price); ?>
+                                                        <br>
+                                                        <small><?php echo htmlspecialchars($display_label); ?></small>
+                                                    <?php else: ?>
+                                                        <small>tidak tersedia</small>
+                                                    <?php endif; ?>
+                                                </span>
+                                            </p>
+                                        </div>
+
+                                        <div class="shop-btn-wrap">
+                                            <a href="<?php echo $detail_link; ?>" class="shop-btn custom-btn btn d-flex align-items-center align-items-center text-center">PESAN</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="shop-body">
+                                        <small class="text-muted"><?php echo $product->Merk; ?></small>
+                                        <h4><?php echo $product->Nama; ?></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
-                </div>
+                <?php endforeach; ?>
             </section>
 
 

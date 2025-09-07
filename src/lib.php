@@ -1,9 +1,18 @@
 <?php
 
-function get_inventory_list() {
+function get_inventory_list($kategori) {
     $json = 'data/inventory.json';
     $file_content = file_get_contents($json);
-    return json_decode($file_content);
+    $data = json_decode($file_content);
+
+    $by_kategori = array_filter($data, function($item) use ($kategori) {
+        if (isset($item->Kategori) && $item->Kategori == $kategori) {
+            return true;
+        }
+        return false;
+    });
+
+    return $by_kategori;
 }
 
 function get_inventory($kode) {

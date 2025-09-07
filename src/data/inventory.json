@@ -1,6 +1,7 @@
 [
   {
     "Kode": "T001",
+    "Kategori": "Playground",
     "Nama": "Perosotan besar",
     "Merk": "Molion",
     "Spek": "P190 x T78 cm",
@@ -15,6 +16,7 @@
   },
   {
     "Kode": "T002",
+    "Kategori": "Playground",
     "Nama": "Ayunan",
     "Merk": "Molion",
     "Spek": "",
@@ -29,6 +31,7 @@
   },
   {
     "Kode": "T003",
+    "Kategori": "Playground",
     "Nama": "Playpen",
     "Merk": "Molion",
     "Spek": "P158 x L120 cm",
@@ -43,6 +46,7 @@
   },
   {
     "Kode": "T004",
+    "Kategori": "Playground",
     "Nama": "Ring basket",
     "Merk": "Molion",
     "Spek": "T163 cm",
@@ -57,6 +61,7 @@
   },
   {
     "Kode": "T005",
+    "Kategori": "Playground",
     "Nama": "Kuda-kudaan",
     "Merk": "Molion",
     "Spek": "",
@@ -71,6 +76,7 @@
   },
   {
     "Kode": "T006",
+    "Kategori": "Baby",
     "Nama": "Push walker",
     "Merk": "Sugarbaby",
     "Spek": "",
@@ -85,6 +91,7 @@
   },
   {
     "Kode": "T007",
+    "Kategori": "Baby",
     "Nama": "Bouncer rocker",
     "Merk": "Sugarbaby",
     "Spek": "",
@@ -99,6 +106,7 @@
   },
   {
     "Kode": "T008",
+    "Kategori": "Baby",
     "Nama": "HugMe swing",
     "Merk": "Sugarbaby",
     "Spek": "",
@@ -113,6 +121,7 @@
   },
   {
     "Kode": "T009",
+    "Kategori": "Playground",
     "Nama": "Roof car Jolie",
     "Merk": "Yaya",
     "Spek": "",
@@ -127,6 +136,7 @@
   },
   {
     "Kode": "T011",
+    "Kategori": "Playground",
     "Nama": "Sepeda dorong",
     "Merk": "Exotic",
     "Spek": "",
@@ -141,6 +151,7 @@
   },
   {
     "Kode": "T012",
+    "Kategori": "Baby",
     "Nama": "Stroller Versee",
     "Merk": "Cocolatte",
     "Spek": "",
@@ -155,6 +166,7 @@
   },
   {
     "Kode": "T013",
+    "Kategori": "Baby",
     "Nama": "Babybox Cloud",
     "Merk": "Babyelle",
     "Spek": "",
@@ -169,6 +181,7 @@
   },
   {
     "Kode": "T014",
+    "Kategori": "Baby",
     "Nama": "Stroller Conic Auto",
     "Merk": "Cocolatte",
     "Spek": "",
@@ -183,6 +196,7 @@
   },
   {
     "Kode": "T015",
+    "Kategori": "Playground",
     "Nama": "Perosotan kecil",
     "Merk": "Molion",
     "Spek": "P110 x T50 cm",
@@ -197,6 +211,7 @@
   },
   {
     "Kode": "T016",
+    "Kategori": "Baby",
     "Nama": "ExerSaucer jumperoo",
     "Merk": "Evenflo",
     "Spek": "",
@@ -211,6 +226,7 @@
   },
   {
     "Kode": "T017",
+    "Kategori": "Baby",
     "Nama": "Carseat Secure+ 360",
     "Merk": "Babydoes",
     "Spek": "",
@@ -225,6 +241,7 @@
   },
   {
     "Kode": "T018",
+    "Kategori": "Playground",
     "Nama": "Perosotan london",
     "Merk": "Labeille",
     "Spek": "P165 x T65 cm",
@@ -239,6 +256,7 @@
   },
   {
     "Kode": "T019",
+    "Kategori": "Playground",
     "Nama": "Perosotan dolphin",
     "Merk": "Labeille",
     "Spek": "P150 x T50 cm",
@@ -253,6 +271,7 @@
   },
   {
     "Kode": "T020",
+    "Kategori": "Playground",
     "Nama": "Dream house",
     "Merk": "Labeille",
     "Spek": "P115 x L115 x T125 cm",
@@ -267,6 +286,7 @@
   },
   {
     "Kode": "T021",
+    "Kategori": "Playground",
     "Nama": "Mandi bola 1000pcs",
     "Merk": "",
     "Spek": "Kolam 150 cm",
@@ -281,6 +301,7 @@
   },
   {
     "Kode": "T022",
+    "Kategori": "Playground",
     "Nama": "Trampolin jaring",
     "Merk": "",
     "Spek": "Ukuran diameter 140 cm",
