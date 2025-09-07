@@ -66,7 +66,7 @@
                                 <h2 class="mt-4 mb-4"><span class="tooplate-red">Katalog</span> <?php echo $cat_label; ?></h2>
                             </div>
                         </div>
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3">
                             <?php foreach ($products as $product) : 
                                 $detail_link = "product.php/" . $product->Kode . '-' . slugify($product->Nama) . '.html';    
 
